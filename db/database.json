@@ -1,0 +1,34 @@
+{
+    "purchasedItems": [
+      {
+        "id": 1,
+        "name": "Blue Vortex",
+        "description": "Low in stock!",
+        "isBought": false
+      },
+      {
+        "id": 2,
+        "name": "Marble Facade",
+        "description": "Exotic!",
+        "isBought": false
+      },
+      {
+        "id": 3,
+        "name": "Gondor Grey",
+        "description": "Gondor Grey is a favorite!",
+        "isBought": false
+      },
+      {
+        "id": 4,
+        "name": "Green Cover",
+        "description": "Green Cover is a favorite!",
+        "isBought": false
+      },
+      {
+        "id": 5,
+        "name": "Gryffindor Red",
+        "description": "Gryffindor Red is a favorite!",
+        "isBought": false
+      }
+    ]
+  }

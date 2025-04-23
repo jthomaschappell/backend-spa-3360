@@ -1,2 +1,3 @@
 venv/
 *.diff
+.DS_Store
