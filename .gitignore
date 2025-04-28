@@ -1,3 +1,6 @@
-venv/
+\venv/
+backend-backup-key
+backend-backup-key.pub
+.env
 *.diff
 .DS_Store
