@@ -12,7 +12,6 @@ app = fastapi.FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
@@ -20,6 +19,7 @@ app.add_middleware(
 
 app.include_router(book_controller.router)
 app.include_router(purchased_items_controller.router)
+
 @app.get("/")
 def read_root():
     return {"message": "Hello World"}
